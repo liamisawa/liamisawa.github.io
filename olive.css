@@ -7,8 +7,10 @@ OliveIsASimp
   --darkplus-bg2: #302f2f;
   --darkplus-sec: #4c82cd;
   --darkplus-links: #cdaef3;
-  --darkplus-home-icon: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png);
   --darkplus-name: #11111;
+  --darkplus-TopRightName: "Olive <3";
+  --darkplus-home-icon: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png);
+
 }
 
 .bg-1QIAus,
@@ -866,7 +868,7 @@ button[aria-label="Send a gift"] {
   display: none;
 }
 .wordmark-2u86JB:after {
-  content: "Olive <3";
+  content: --darkplus-TopRightName;
 }
 
 .channelName-3KPsGw,
